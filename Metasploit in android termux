@@ -1,0 +1,22 @@
+pkg update && pkg upgrade -y && pkg install wget curl openssh git -y
+
+cd $HOME
+
+bash metasploit.sh
+
+msfconsole
+
+pkg update && pkg upgrade -y && pkg install curl wget tsu wget git && wget Auxilus.github.io/metasploit.sh && bash metasploit.sh
+
+
+
+If error so this
+
+apt update && apt upgrade && apt install unstable-repo && apt install metasploit
+
+pkg update && pkg upgrade && pkg install git curl wget nmap -y && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh
+
+pkg update && pkg upgrade && pkg install curl wget git && git clone github.com/verluchie/termux-metasploit && chmod 777 termux-metasploit/install.sh && sh termux-metasploit/install.sh
+
+apt update && apt upgrade && apt install curl && curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && chmod 777 metasploit.sh && sh metasploit.sh
+
